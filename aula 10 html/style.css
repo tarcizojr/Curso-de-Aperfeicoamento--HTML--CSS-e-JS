@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root{
+    --corPadrao: linear-gradient(90deg, rgba(43,38,80,1) 0%, rgba(4,19,69,1) 100%);
+}
+
+.div1, .div2{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+
+
+.form1, .form2{
+    background: var(--corPadrao);
+    width: 600px;
+    height: 600px;
+    display: flex;    
+    flex-direction: column;
+    padding-top: 20px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.login{
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.login input{
+    width: 200px;
+    height: 25px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.login input::placeholder{
+   color: brown;
+   text-transform: uppercase;
+}
+
+.form1 textarea{
+    border-radius: 20px;
+    border: solid rgb(19, 19, 37) 5px;
+    padding: 10px;
+}
+
+.form1 .botoes input{
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: rgb(5, 5, 156);
+    color: aliceblue;
+    transition: .5s;
+}
+.form1 .botoes input:hover{
+    background-color: rgb(34, 34, 88);
+}
+
+.form2{
+    background-color: blueviolet;
+    
+}
+
+.form2 .info{
+    width: 250px;
+    background-color: rgb(35, 156, 156);
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+.form2 .info legend{
+    background-color: rgb(26, 68, 68);
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.aleatorios fieldset{
+    display: flex;
+    flex-direction: column;
+}
+
+.aleatorios fieldset input{
+    margin-bottom: 10px;
+    width: 250px;
+}
+
+.aleatorios fieldset input.input1{
+    width: 100px;
+}
+

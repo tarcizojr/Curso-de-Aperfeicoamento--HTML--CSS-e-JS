@@ -1,21 +1,59 @@
-p{
-    color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.section1{
+    background-color: rgb(195, 195, 236);
+    padding: 20px 40px;
+}
+
+#section1.section1 h1.titulo{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+   
+
+}
+
+#section1.section1 div {
+    display: flex;
+    font-size: 20px;
+}
+
+
+.section{
+    padding: 30px;    
+    font-size: 30px;
+}
+
+.section.conteudo1{
     background-color: brown;
 }
 
-.teste{
-    color: white;
-    background-color: aqua;
+.section.conteudo2{
+    background-color: rgb(42, 61, 165);
 }
 
-section{
-    background-color:blueviolet 
+.section.conteudo3{
+    background-color: rgb(56, 165, 42);
 }
 
-p{
-    background-color: pink;
+.section.conteudo4{
+    background-color: rgb(64, 66, 63);
+    color: aliceblue;
 }
 
-#teste{
-    color: blue;
+.colum1{
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+}
+
+.colum2{
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: 700;
 }

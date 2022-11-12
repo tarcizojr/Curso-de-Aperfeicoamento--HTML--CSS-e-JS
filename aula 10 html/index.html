@@ -5,77 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form id="form" action="" autocomplete="on">
-        <div>
-            <label for="login">Login</label>
-            <input id="login" type="email"> <br>
+
+    <div class="div1">
+        <form class="form1" id="form" action="" autocomplete="on">
+            <div class="login">
+                <label for="login">Login</label>
+                <input id="login" type="email"> <br>
+        
+                <label for="senha">Senha</label>
+                <input placeholder="senha" id="senha" type="password">
+            </div>
     
-            <label for="senha">Senha</label>
-            <input placeholder="senha" id="senha" type="password">
-        </div>
-
-
-        <input type="color" name="" id="">
-
-        <input type="time">
-
-        <textarea name="" id="" cols="60" rows="20" maxlength="5" placeholder="Arae"></textarea>
-
-       
-
-    </form>
-
-    <input type="submit">
-    <input form="form" type="reset">
-
-    <button type="reset" form="form">Limpar</button>
-
-
-    <div>
-        <form action="">
-            <fieldset>
-                <legend>Sexo</legend>
-
-                <label for="mas">Masculino</label>
-                <input name="sexo" id="mas" type="radio" checked>
-
-                <label for="fe">Feminino</label>
-                <input name="sexo" id="fe" type="radio" >
-            </fieldset>
-
-            <fieldset>
-                <legend>Linguangens de Programação</legend>
-                <label for="java">Java</label>
-                <input id="java" type="checkbox" checked>
-                <label for="html">HTML</label>
-                <input id="html" type="checkbox">
-                <label for="css">CSS</label>
-                <input id="css" type="checkbox" checked>        
-                <label for="js">JS</label>
-                <input id="js" type="checkbox" checked>
-            </fieldset>
-
-            <fieldset>
-                <input type="datetime-local" name="" id="">
-
-                <input type="file"><br>
+    
+   
+            <textarea name="" id="" cols="60" rows="20" placeholder="Arae"></textarea>
+    
+           <div class="botoes">
+                <input type="submit">
+                <input form="form" type="reset">
+            
                 
-                <input type="hidden" name="" id="" value="150">
+           </div>
+    
+        </form>
+    </div>
 
-                <input type="month">
 
-                <input type="number">
 
-                <input type="range" name="" id="" min="5" max="20">
 
-                <input type="time">
+    <div class="div2">
+        <form class="form2" action="">
+            <div class="info">
+                <fieldset >
+                    <legend>Sexo</legend>
+    
+                    <label for="mas">Masculino</label>
+                    <input name="sexo" id="mas" type="radio" checked>
+    
+                    <label for="fe">Feminino</label>
+                    <input name="sexo" id="fe" type="radio" >
+                </fieldset>
+            </div>
 
-                <input type="week">
-            </fieldset>
+            <div class="info">
+                <fieldset>
+                    <legend>Linguangens de Programação</legend>
+                    <label for="java">Java</label>
+                    <input id="java" type="checkbox" checked>
+                    <label for="html">HTML</label>
+                    <input id="html" type="checkbox">
+                    <label for="css">CSS</label>
+                    <input id="css" type="checkbox" checked>        
+                    <label for="js">JS</label>
+                    <input id="js" type="checkbox" checked>
+                </fieldset>
+            </div>
+
+            <div class="aleatorios">
+                <fieldset>
+                    <input class="input1" type="datetime-local" name="" id="">
+    
+                   
+                    
+                    <input type="hidden" name="" id="" value="150">
+    
+                    <input type="month">
+    
+                    <input type="number">
+    
+                    <input type="range" name="" id="" min="5" max="20">
+    
+                    <input type="time">
+    
+                    <input type="week">
+
+                    <input class="file" type="file">
+                </fieldset>
+            </div>
 
         </form>
     </div>
+
+
+
 </body>
 </html>

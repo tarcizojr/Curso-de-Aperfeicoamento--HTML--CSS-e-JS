@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.lorem{
+    background-image: url(assets/img/meninaLoirinha.webp);
+    background-color: antiquewhite;
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: solid rebeccapurple 5px;
+    color: antiquewhite;
+    margin-top: 20px;
+   
+}
+
+.lorem p{
+    margin-top: 20px;
+    width: 350px;
+    text-align: center;
+    margin-left: 50px;
+}

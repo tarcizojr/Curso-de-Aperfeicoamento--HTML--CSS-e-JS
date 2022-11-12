@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.youtube, .map{
+    margin: 30px;
+
+}
+
+.youtube div{
+    margin-bottom: 20px;
+}
+
+.youtube div ul{    
+    width: 400px;
+    padding: 10px;
+    list-style: none;
+    border-radius: 10px;
+    display: flex;
+}
+
+.youtube div ul li{
+    background-color: rgb(46, 173, 173);
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.youtube div ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.youtube div iframe, .map{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    border: ridge red 10px;
+    
+}
+
